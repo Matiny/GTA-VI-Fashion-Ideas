@@ -76,7 +76,7 @@ $(document).ready(function () {
 
     //Hairstyles
 
-    $('.straight').click(function () {
+$('div').on('click', 'div:contains("Straight")', function () {
         $('.model img:nth-child(2)').attr('src', 'beauty/6-hair/hair-ls.png');
     });
 
